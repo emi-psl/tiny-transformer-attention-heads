@@ -1,0 +1,220 @@
+{
+  "baseline": {
+    "positions": true,
+    "steps": 160,
+    "completed_updates": 160,
+    "seed": 4366,
+    "batch_seed": 4367,
+    "heads": 4,
+    "ff_hidden": 128,
+    "config": {
+      "vocab_size": 30,
+      "width": 32,
+      "heads": 4,
+      "context": 24,
+      "use_positions": true,
+      "ff_hidden": 128
+    },
+    "attention_class": "SeparateAttention",
+    "parameter_count": 14718,
+    "optimiser": "AdamW",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "batch_size": 32,
+    "gradient_clip": 1.0,
+    "initial_state_sha256": "aced631029bf001159412fd3a03f9a0a9cfec510baa27a7e740e44e3789a563f",
+    "batch_sequence_sha256": "1f78bd314b1648cc2510620e10596e270eb4f5134b4f46ae55395212a1490bff",
+    "initial_validation": {
+      "loss": 3.63206985850393,
+      "accuracy": 0.03115354938271605,
+      "correct": 323,
+      "targets": 10368
+    },
+    "train": {
+      "loss": 0.24812477407762676,
+      "accuracy": 0.907051282051282,
+      "correct": 11037,
+      "targets": 12168
+    },
+    "validation": {
+      "loss": 3.424808031246986,
+      "accuracy": 0.4130979938271605,
+      "correct": 4283,
+      "targets": 10368
+    },
+    "history": [
+      {
+        "step": 0,
+        "batch_loss": 3.624618379792283,
+        "val_loss": 3.63206985850393
+      },
+      {
+        "step": 40,
+        "batch_loss": 1.2631551027297974,
+        "val_loss": 2.4998568546624833
+      },
+      {
+        "step": 80,
+        "batch_loss": 0.6346544623374939,
+        "val_loss": 2.8479853500554593
+      },
+      {
+        "step": 120,
+        "batch_loss": 0.34101638197898865,
+        "val_loss": 3.193728882589458
+      },
+      {
+        "step": 160,
+        "batch_loss": 0.25477632880210876,
+        "val_loss": 3.424808031246986
+      }
+    ],
+    "parameter_max_abs_changes": {
+      "embedding.weight": 0.4085529148578644,
+      "block.ln1.weight": 0.24000680446624756,
+      "block.ln1.bias": 0.155471071600914,
+      "block.ln2.weight": 0.2533074617385864,
+      "block.ln2.bias": 0.11212194710969925,
+      "block.attn.proj.weight": 0.28547224402427673,
+      "block.attn.proj.bias": 0.09057663381099701,
+      "block.attn.q_proj.weight": 0.32893848419189453,
+      "block.attn.q_proj.bias": 0.2549154758453369,
+      "block.attn.k_proj.weight": 0.38588765263557434,
+      "block.attn.k_proj.bias": 0.0029571279883384705,
+      "block.attn.v_proj.weight": 0.37836945056915283,
+      "block.attn.v_proj.bias": 0.08150392770767212,
+      "block.ff.0.weight": 0.34270644187927246,
+      "block.ff.0.bias": 0.16206082701683044,
+      "block.ff.2.weight": 0.30658087134361267,
+      "block.ff.2.bias": 0.08673378080129623,
+      "norm.weight": 0.37387144565582275,
+      "norm.bias": 0.23934386670589447,
+      "output.weight": 0.36614513397216797,
+      "output.bias": 0.17776964604854584
+    },
+    "pe_unchanged": true,
+    "generation": {
+      "prompt": "the alpha lab ",
+      "new_chars": 40,
+      "decoding": "greedy",
+      "before": "the alpha lab m,\ng,\ngvmxiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+      "after": "the alpha lab opens at e.\natwelve.\n is open.\nin.\nsinel"
+    },
+    "seconds": 1.2020719998981804
+  },
+  "variant": {
+    "positions": true,
+    "steps": 160,
+    "completed_updates": 160,
+    "seed": 4366,
+    "batch_seed": 4367,
+    "heads": 2,
+    "ff_hidden": 128,
+    "config": {
+      "vocab_size": 30,
+      "width": 32,
+      "heads": 2,
+      "context": 24,
+      "use_positions": true,
+      "ff_hidden": 128
+    },
+    "attention_class": "SeparateAttention",
+    "parameter_count": 14718,
+    "optimiser": "AdamW",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "batch_size": 32,
+    "gradient_clip": 1.0,
+    "initial_state_sha256": "aced631029bf001159412fd3a03f9a0a9cfec510baa27a7e740e44e3789a563f",
+    "batch_sequence_sha256": "1f78bd314b1648cc2510620e10596e270eb4f5134b4f46ae55395212a1490bff",
+    "initial_validation": {
+      "loss": 3.6319988392017506,
+      "accuracy": 0.030381944444444444,
+      "correct": 315,
+      "targets": 10368
+    },
+    "train": {
+      "loss": 0.27022261058398567,
+      "accuracy": 0.9039283366206443,
+      "correct": 10999,
+      "targets": 12168
+    },
+    "validation": {
+      "loss": 3.143546469417619,
+      "accuracy": 0.42862654320987653,
+      "correct": 4444,
+      "targets": 10368
+    },
+    "history": [
+      {
+        "step": 0,
+        "batch_loss": 3.62622969186596,
+        "val_loss": 3.6319988392017506
+      },
+      {
+        "step": 40,
+        "batch_loss": 1.2643793821334839,
+        "val_loss": 2.5738916750307435
+      },
+      {
+        "step": 80,
+        "batch_loss": 0.673438549041748,
+        "val_loss": 2.767328851016951
+      },
+      {
+        "step": 120,
+        "batch_loss": 0.39732369780540466,
+        "val_loss": 2.9549822866180797
+      },
+      {
+        "step": 160,
+        "batch_loss": 0.27858206629753113,
+        "val_loss": 3.143546469417619
+      }
+    ],
+    "parameter_max_abs_changes": {
+      "embedding.weight": 0.4076012969017029,
+      "block.ln1.weight": 0.20829319953918457,
+      "block.ln1.bias": 0.17086629569530487,
+      "block.ln2.weight": 0.3048743009567261,
+      "block.ln2.bias": 0.10286568850278854,
+      "block.attn.proj.weight": 0.3204505145549774,
+      "block.attn.proj.bias": 0.09134632349014282,
+      "block.attn.q_proj.weight": 0.284960001707077,
+      "block.attn.q_proj.bias": 0.26958799362182617,
+      "block.attn.k_proj.weight": 0.34957438707351685,
+      "block.attn.k_proj.bias": 0.00423857569694519,
+      "block.attn.v_proj.weight": 0.29222172498703003,
+      "block.attn.v_proj.bias": 0.07614914327859879,
+      "block.ff.0.weight": 0.3398335576057434,
+      "block.ff.0.bias": 0.17969880998134613,
+      "block.ff.2.weight": 0.31773853302001953,
+      "block.ff.2.bias": 0.097884401679039,
+      "norm.weight": 0.36386585235595703,
+      "norm.bias": 0.23667539656162262,
+      "output.weight": 0.3827928900718689,
+      "output.bias": 0.18225350975990295
+    },
+    "pe_unchanged": true,
+    "generation": {
+      "prompt": "the alpha lab ",
+      "new_chars": 40,
+      "decoding": "greedy",
+      "before": "the alpha lab mxeka,\np,\npiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+      "after": "the alpha lab opens at onele.\n ope.\nab is opetwe.\n.\n.\n"
+    },
+    "seconds": 1.2195693999528885
+  },
+  "versions": {
+    "python": "3.11.18",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2"
+  },
+  "causal_check": {
+    "unmasked_change": 0.12253469228744507,
+    "masked_change": 0.0,
+    "tolerance": 1e-05,
+    "passed": true
+  }
+}

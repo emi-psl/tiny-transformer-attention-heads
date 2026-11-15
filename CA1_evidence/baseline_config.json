@@ -1,0 +1,12 @@
+{
+  "config": {
+    "vocab_size": 30,
+    "width": 32,
+    "heads": 4,
+    "context": 24,
+    "use_positions": true,
+    "ff_hidden": 128
+  },
+  "chars": "\n .,abcdefghijklmnopqrstuvwxyz",
+  "attention_class": "SeparateAttention"
+}

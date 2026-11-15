@@ -1,0 +1,9 @@
+{
+  "max_abs_logit_difference": 0.0,
+  "tolerance": 1e-06,
+  "passed": true,
+  "validation_windows": [
+    0,
+    1
+  ]
+}
